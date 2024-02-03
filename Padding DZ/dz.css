@@ -1,0 +1,22 @@
+.box{
+    background-color: rgb(60, 0, 156);
+    color: rgb(158, 255, 171);
+    padding:130px;
+    border-width:5px;
+    border-style: dashed;
+    border-color: red;
+}
+
+.none {
+    padding-top: 20px;
+    padding-left: 200px;
+    padding-bottom: 50px;
+}
+
+.button{
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+    margin-top: 100px;
+    margin-left: 900px;
+}
