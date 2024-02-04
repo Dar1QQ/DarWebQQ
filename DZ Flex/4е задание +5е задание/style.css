@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.items {
+  height: 400px;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  align-items:center;
+  flex-direction: column;
+  justify-content: center;
+}
+.items>:last-child{
+  align-self:flex-end;
+}
+
+.items>:first-child {
+  flex-basis: 200px;
+  width: 200px;
+}
+
+.item{
+  width: 100px;
+  height: 100px;
+  }
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
